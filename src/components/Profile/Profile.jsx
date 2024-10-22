@@ -1,9 +1,7 @@
 import userData from "../../userData.json"
 import css from "./Profile.module.css"
 
-const { username, tag, location, avatar, stats: { followers, views, likes } } = userData;
-
-const Profile = ({ userData }) => {
+const Profile = ({ username, tag, location, avatar, stats: { followers, views, likes } }) => {
     
     return (
         <div className={css.container}>
