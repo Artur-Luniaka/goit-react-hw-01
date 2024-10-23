@@ -1,0 +1,25 @@
+.table {
+  width: 500px;
+  height: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.titles {
+  background-color: black;
+  color: white;
+}
+
+.titles_slot {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.data_slot {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.data_slot_horizontal:nth-child(2n) {
+  background-color: lightgray;
+}
